@@ -1,0 +1,34 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Colors -->
+  <defs>
+    <style>
+      .primary { fill: #1ecad3; }
+      .dark { fill: #0b2c35; }
+      .text { fill: #0b2c35; }
+    </style>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="400" cy="350" r="220" class="dark"/>
+
+  <!-- Octopus head -->
+  <ellipse cx="400" cy="320" rx="130" ry="110" class="primary"/>
+
+  <!-- Eyes -->
+  <circle cx="360" cy="320" r="10" fill="#0b0b0b"/>
+  <circle cx="440" cy="320" r="10" fill="#0b0b0b"/>
+
+  <!-- Tentacles -->
+  <path d="M290 380 C240 450 240 520 300 560" stroke="#1ecad3" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M350 390 C320 460 330 540 360 580" stroke="#1ecad3" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M450 390 C480 460 470 540 440 580" stroke="#1ecad3" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M510 380 C560 450 560 520 500 560" stroke="#1ecad3" stroke-width="28" fill="none" stroke-linecap="round"/>
+
+  <!-- Dumbbells -->
+
+  <rect x="460" y="260" width="110" height="22" rx="8" fill="#a5a3a3"/>
+  <circle cx="460" cy="271" r="30" fill="#a5a3a3" stroke="#060606" stroke-width="2"/>
+  <circle cx="570" cy="271" r="30" fill="#a5a3a3" stroke="#060606" stroke-width="2"/>
+
+</svg>
